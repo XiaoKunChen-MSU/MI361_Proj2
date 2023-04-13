@@ -10,6 +10,10 @@
     margin-left: 50%;
 }
 
+.ship {
+    width: 100%;
+}
+
 .navigator {
     list-style-type:none ;
     display: flex;
