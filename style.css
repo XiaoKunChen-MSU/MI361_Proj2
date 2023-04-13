@@ -1,13 +1,13 @@
 
 .logo{
-    width: 130px;
-    height: 130px;
+    width: 105px;
+    height: 100px;
 }
 
 .login {
     width: 70px;
     height: 70px;
-    margin-left: 50%;
+    margin-left: 60%;
 }
 
 .ship {
@@ -26,7 +26,7 @@
     position: -webkit-sticky;
     top: 0;
     background-color: white;
-    height: 170px;
+    height: 130px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 
 li {
     padding: 10%;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 1%;
 }
 
