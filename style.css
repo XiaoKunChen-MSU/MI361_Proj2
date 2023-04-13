@@ -4,6 +4,12 @@
     height: 130px;
 }
 
+.login {
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+}
+
 .navigator {
     list-style-type:none ;
     display: flex;
@@ -16,6 +22,7 @@
     position: -webkit-sticky;
     top: 0;
     background-color: white;
+    height: 170px;
 }
 
 body {
