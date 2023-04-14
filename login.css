@@ -1,4 +1,4 @@
-.login-page {
+.login-page, .signup-page{
     width: 380px;
     padding: 8% 0 0;
     margin: auto;
@@ -52,4 +52,12 @@ body {
 
 .form button:hover {
     background-color: rgb(138, 206, 4);
+}
+
+.form .message a{
+    text-decoration: none;
+}
+
+.form .message a:hover {
+    text-decoration: underline;
 }
