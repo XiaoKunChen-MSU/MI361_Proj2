@@ -78,3 +78,12 @@
 span {
     color: white;
 }
+
+img {
+    position: relative;
+    z-index: -1 ;
+    height: 670px;
+}
+.function_menu {
+
+}
