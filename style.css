@@ -98,8 +98,14 @@ img {
     cursor: pointer;
 }
 
-
-
 .function_menu .message:hover {
     text-decoration: underline;
+}
+
+.box {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 500px;
+    height: 50px;
+    margin-left:40px;
 }
