@@ -93,7 +93,8 @@ img {
 .message {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    margin: 25% 40px ;
+    margin:40px;
+    margin-top: 17%;
     color: white;
     cursor: pointer;
 }
@@ -105,7 +106,24 @@ img {
 .box {
     background-color: white;
     border-radius: 5px;
-    max-width: 500px;
     height: 50px;
-    margin-left:40px;
+   
+}
+
+.trackBox input {
+    width: 600px;
+    height: 40px;
+    font-size: large;
+    margin: 0px 45px 0px ;
+    border: 1px solid;
+}
+
+.trackBox #trackMe {
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+    text-decoration: none;
+    text-align: center;  
 }
