@@ -83,7 +83,7 @@ span {
 img {
     position: relative;
     z-index: -1 ;
-    height: 670px;
+    height: 750px;
 }
 .function_menu {
     position: absolute;
@@ -126,4 +126,6 @@ img {
     border: none;
     text-decoration: none;
     text-align: center;  
+    margin-left: -30px;
+    
 }
