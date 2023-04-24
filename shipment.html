@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Spartan Express</title>
+    <title>Create your shipment</title>
 </head>
-
 <body>
     <div class="nav">
         <a href="index.html">
@@ -39,32 +38,31 @@
         <a href="login.html">
           <img class="login" src="login_icon.png" alt="login_pic">  
         </a>
-        
+    </div>    
+
+    <div id="shipmentinfo">
+        <form>
+            <label class="firstName">First Name:
+                <input type="text">
+            </label>
+            <label class="lastName">Last Name:
+                <input type="text">
+            </label>
+            <label class="email">Email address:
+                <input type="text">
+            </label>
+            <label class="address"> Address:
+                <input type="text">
+            </label>
+            <label class="phone"> Phone:
+                <input type="text">
+            </label>
+            <label class="comment">Comment:
+                <textarea name="comment"></textarea>
+            </label>
+        </form>
+        <button onclick="clickMe()" class="buttonClick">Submit</button>
     </div>
-    <div class="function_menu">
-            <div class="track_menu">
-                <p class="message" id="trackfunc" onclick="trackFunc()"><strong>Track your Package</strong></p>
-            </div>
-            <div class="trackBox">
-                <input type="text" placeholder="Track Number">
-                <button id="trackMe" onclick="trackme()">Track</button>
-            </div>
-            <div class="ship_menu">
-                <a href="shipment.html">
-                    <p class="message" id="shipfunc"><strong>Create a Shipment</strong></p>
-                </a>
-                
-                
-            </div>
-        </div>
-
-    <img class="ship" src="ship.png" alt="ship_pic">
-
-    <img class="ship" src="ship.png" alt="ship_pic">
-   
-       
-   
-
-   <script src="function.js"></script>
+    <script src="function.js"></script>
 </body>
 </html>

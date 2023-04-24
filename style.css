@@ -119,13 +119,52 @@ img {
 }
 
 .trackBox #trackMe {
-    height: 25px;
+    color: #4CAF50;
+    height: 35px;
     width: 50px;
     border-radius: 10px;
-    background-color: yellow;
-    border: none;
-    text-decoration: none;
+    background-color:yellow;
     text-align: center;  
     margin-left: -30px;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    border: 1px solid black ;
     
+}
+
+.trackBox #trackMe:hover {
+    background-color: #4CAF50;
+    color: yellow;
+}
+
+button{
+    cursor: pointer;
+}
+
+#shipmentinfo input[type=text],select, textarea, .buttonClick{
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.comment textarea{
+    height: 150px;
+}
+
+.buttonClick{
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#shipmentinfo{
+   font-size: 30px;
+   margin-left: 10px;
 }
